@@ -1,0 +1,116 @@
+h1, h2{
+    text-align: center;
+}
+
+h1{
+    font-family: fantasy;
+    font-size: 250%;
+}
+
+.bg_color, body{
+    background-color: #5D001E ;
+}
+
+.sep_color{
+    background-color: #EE4C7C;
+}
+
+form{
+    text-align: center;
+}
+.login input{
+    display: block;
+    margin: auto;
+}
+
+nav ul {
+  
+  margin-left: -30px;
+  
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px;
+  margin: -3px 25px;
+  text-decoration: none;
+  color: black;
+  background-color: #E3AFBC;
+  border-radius: 3px;
+  border: 2px solid white;
+}
+
+nav a:hover {
+  background-color:  #5D001E ;
+  color: white;
+}
+
+nav {
+    background-color: #EE4C7C;
+    border:2px solid white;
+    list-style:none;
+    padding: 0px;
+    text-align:center;
+    margin: auto auto 20px auto;
+    border-radius: 5px;
+}
+
+body, html {
+height: 100%;
+}
+
+.wrapper {
+    margin: 30px auto;
+    background-color:  #e3e2df ;
+    min-height: 50%;
+    width: 75%;
+    padding: 0px 0px 2px 0px;
+    border: 3px solid white;
+}
+
+header {
+  order: 0;
+  justify-content: space-between;
+  background:  #E3AFBC ;
+  align-items: center;
+  margin: -10px -25px;
+  padding: 2px;
+  border-radius: 5px;
+  border: 3px solid white;
+}
+main > * {
+  margin: 10px -25px;
+  padding: 2px;
+  border-radius: 3px;
+}
+main {
+  display: flex;
+  order: 1;
+  flex-basis: 800px;
+  
+}
+
+table, td, th {  
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: -20px;
+}
+
+td, th {
+    padding: 10px;
+}
+
+th {
+    font-size: 150%;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
